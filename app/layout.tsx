@@ -99,7 +99,19 @@ export default function RootLayout({
 
         <meta name="google-site-verification" content="PoQxpdNOpZFCjqo2D6lSX0LfJg1tT7bRwSi6wRBNy1g" />
 
-        
+         {/* Google Analytics - Just for visitor tracking */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HD9JECR5Z6"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HD9JECR5Z6');
+            `,
+          }}
+        />
+
         {/* Fonts */}
         <link
           rel="stylesheet"
