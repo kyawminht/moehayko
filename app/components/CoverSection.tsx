@@ -17,7 +17,7 @@ export default function CoverSection() {
         }}
       >
         <Image
-          src="/images/cover.jpg"
+          src="/images/Cover.jpg"
           alt="Cover"
           fill
           style={{ objectFit: 'contain' }}

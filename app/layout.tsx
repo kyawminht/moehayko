@@ -16,17 +16,58 @@ export const metadata: Metadata = {
   title: 'မိုးဟေကိုသို့ တမ်းချင်း - ချစ်သဲ',
   description: '2012 လောက်တုန်းက ရေးထားတဲ့ စာရေးမူကို web app အဖြစ် ပြောင်းထားတာဖြစ်ပါတယ်။',
   authors: [{ name: 'Chit Thae' }],
-  keywords: 'ချစ်သဲ, မိုးဟေကို, မြန်မာဝတ္ထု, Burmese novel, အချစ်ဝတ္ထု',
+ keywords: [
+  // Core
+  'ချစ်သဲ', 'Chit Thae', 'မိုးဟေကို', 'မိုးဟေကိုသို့တမ်းချင်း',
+  
+  // Genre
+  'မြန်မာဝတ္ထု', 'Burmese novel', 'အချစ်ဝတ္ထု', 'မြန်မာစာပေ',
+  'Burmese literature', 'လူငယ်ဝတ္ထု',
+  
+  // Themes
+  'အချစ်', 'အချစ်ဇာတ်လမ်း', 'ချစ်ခြင်းမေတ္တာ', 'အလွမ်းဝတ္ထု',
+  'အလွမ်းဇာတ်လမ်း', 'ခွဲခွာခြင်း', 'လွမ်းဆွတ်ခြင်း', 'တမ်းတခြင်း',
+  'အဆက်ဖြတ်စာ', 'နှလုံးသားအချစ်',
+  
+  // Story Elements
+  'ရာမဇာတ်တော်', 'ဒသဂီရိ', 'မယ်သီတာ', 'ကျောင်းကပွဲ',
+  'ကျောင်းသားဘဝ', 'ပထမအချစ်', 'First love Myanmar', 'မှော်ဘီ',
+  
+  // Format
+  'Myanmar ebook', 'မြန်မာအီးဘွတ်', 'ဝတ္ထု', 'Web novel Myanmar',
+  'အွန်လိုင်းဝတ္ထု', 'ဖုန်းဖတ်စာ', 'Mobile reading',
+  
+  // Audience
+  'မြန်မာစာဖတ်ပရိသတ်', 'Myanmar readers', 'စာဖတ်သူ', 'စာအုပ်စာပေ',
+  'မြန်မာစာအုပ်', 'Myanmar book',
+  
+  // Related
+  'မြန်မာရသစာပေ', 'Myanmar fiction', 'ဝတ္ထုတို', 'ဝတ္ထုရှည်',
+  'မြန်မာစာရေးဆရာ', 'Myanmar author',
+  
+  // Emotional
+  'ကြေကွဲဖွယ်', 'ရင်ခုန်ဖွယ်', 'ချစ်စရာ', 'ဖတ်ကောင်းသောဝတ္ထု',
+  'စိတ်ဝင်စားဖွယ်ဝတ္ထု', 'Emotional story', 'Heart touching',
+  
+  // Variations
+  'ချစ်သဲဝတ္ထု', 'မိုးဟေကိုဝတ္ထု', 'ချစ်သဲစာအုပ်',
+  'Chit Thae book', 'Chit Thae novel', 'Moe Hay Ko', 'Moe Hay Ko novel',
+  
+  // Long-tail
+  'မြန်မာအချစ်ဝတ္ထုများ', 'လက်ရှိဖတ်ကောင်းသောဝတ္ထု',
+  'မြန်မာဝတ္ထုအသစ်',
+  'Burmese love story', 'Myanmar romantic novel',
+],
   
   // Open Graph / Facebook / LinkedIn / Telegram
   openGraph: {
     title: 'မိုးဟေကိုသို့ တမ်းချင်း - ချစ်သဲ',
     description: '2012 လောက်တုန်းက ရေးထားတဲ့ စာရေးမူကို web app အဖြစ် ပြောင်းထားတာဖြစ်ပါတယ်။',
-    url: 'https://chit-thae.vercel.app',
+    url: 'https://moehayko-love.vercel.app/',
     siteName: 'ချစ်သဲ',
     images: [
       {
-        url: 'https://chit-thae.vercel.app/cover.jpg',
+        url: 'https://moehayko-love.vercel.app/cover.jpg',
         width: 1200,
         height: 630,
         alt: 'ချစ်သဲ - Chit Thae Book Cover',
@@ -41,7 +82,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'မိုးဟေကိုသို့ တမ်းချင်း - ချစ်သဲ',
     description: '2012 လောက်တုန်းက ရေးထားတဲ့ စာရေးမူကို web app အဖြစ် ပြောင်းထားတာဖြစ်ပါတယ်။',
-    images: ['https://chit-thae.vercel.app/cover.jpg'],
+    images: ['https://moehayko-love.vercel.app/cover.jpg'],
   },
 };
 
