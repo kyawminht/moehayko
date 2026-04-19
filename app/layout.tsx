@@ -96,6 +96,9 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="theme-color" content="#ffffff" />
+
+        <meta name="google-site-verification" content="PoQxpdNOpZFCjqo2D6lSX0LfJg1tT7bRwSi6wRBNy1g" />
+        
         
         {/* Fonts */}
         <link
