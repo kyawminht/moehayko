@@ -18,6 +18,7 @@ import HandwrittenLetter from './components/HandwrittenLetter';
 import EpilogueSection from './components/EpilogueSection';
 import { chapters } from './data/chapters';
 import NextImage from 'next/image';
+import Footer from './components/Footer';
 const drawerWidth = 260;
 
 export default function Home() {
@@ -675,9 +676,7 @@ export default function Home() {
 
           <EpilogueSection />
 
-          <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 8, mb: 4 }}>
-            © {new Date().getFullYear()} Chit Thae
-          </Typography>
+        <Footer />
         </Container>
       </Box>
     </Box>
